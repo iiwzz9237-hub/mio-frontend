@@ -1,0 +1,16 @@
+{
+  "name": "mio-miniapp-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-file MIO frontend. Development dependencies are for DOM tests only.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
